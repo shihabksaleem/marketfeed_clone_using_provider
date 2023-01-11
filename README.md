@@ -1,5 +1,5 @@
 # marketfeeed
 
-marketfeed clone project using provid
+marketfeed clone project using provider state management
 
 
