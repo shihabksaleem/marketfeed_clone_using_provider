@@ -7,6 +7,7 @@ import 'package:marketfeeed/screeens/screen%20splash/splashscreeen.dart';
 import 'package:provider/provider.dart';
 
 void main(List<String> args) {
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   runApp(MyApp());
 }
 
@@ -30,7 +31,6 @@ class MyApp extends StatelessWidget {
         ),
         initialRoute: SplashScreen.id,
         routes: {
-          //static screen id used for named rtoutes
           SplashScreen.id: (context) => SplashScreen(),
           ScreenLogin.id: (context) => ScreenLogin(),
           ScreenHome.id: (context) => ScreenHome(),

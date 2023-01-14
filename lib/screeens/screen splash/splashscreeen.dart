@@ -3,7 +3,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:marketfeeed/screeens/screenHome/Screen_Home.dart';
+import 'package:marketfeeed/screeens/login%20Screen/screen_login.dart';
 
 class SplashScreen extends StatefulWidget {
   static String id = 'Splash_screen';
@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
       () {
         Navigator.of(context).pushReplacement(
           MaterialPageRoute(
-            builder: (ctx) => ScreenHome(),
+            builder: (ctx) => ScreenLogin(),
           ),
         );
       },
