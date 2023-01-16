@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:marketfeeed/resources/provider%20classes/leaderboardParovider.dart';
-import 'package:marketfeeed/resources/widgets/reusableButton.dart';
+import 'package:marketfeeed/resources/provider_classes/leaderboard_parovider.dart';
+import 'package:marketfeeed/resources/widgets/reusable_button.dart';
 import 'package:provider/provider.dart';
 
 Future<dynamic> indicesOptionBottomSheet(BuildContext context) {

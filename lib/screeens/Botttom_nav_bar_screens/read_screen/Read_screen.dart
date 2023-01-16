@@ -2,11 +2,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:marketfeeed/resources/Colors/colors.dart';
-import 'package:marketfeeed/resources/custom%20indicator/custom_tab_Indicator.dart';
+import 'package:marketfeeed/resources/custom_indicator/custom_tab_Indicator.dart';
 import 'package:marketfeeed/resources/widgets/app_drawer.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Read%20Screen/Tab%20screens/JargonsTab.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Read%20Screen/Tab%20screens/MarketTab.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Read%20Screen/Tab%20screens/EditorialTab.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/read_screen/Tab%20screens/JargonsTab.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/read_screen/Tab%20screens/MarketTab.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/read_screen/Tab%20screens/EditorialTab.dart';
 
 class ReadBottomTab extends StatelessWidget {
   @override

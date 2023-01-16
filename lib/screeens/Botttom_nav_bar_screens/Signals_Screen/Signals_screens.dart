@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_typing_uninitialized_variables, use_key_in_widget_constructors, prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Signals_Screen/SignalsCard.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/signals_screen/SignalsCard.dart';
 
 class SignalsBottomTab extends StatelessWidget {
   @override

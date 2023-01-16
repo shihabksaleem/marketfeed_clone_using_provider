@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Market_screen/global%20indiced%20tab/asianMarkets.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Market_screen/global%20indiced%20tab/european_Markets.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/market_screen/global%20indiced%20tab/asianMarkets.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/market_screen/global%20indiced%20tab/european_Markets.dart';
 
 import 'Us_marketsData.dart';
 

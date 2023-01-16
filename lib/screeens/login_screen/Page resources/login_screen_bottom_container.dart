@@ -2,11 +2,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:marketfeeed/resources/Colors/colors.dart';
-import 'package:marketfeeed/resources/provider%20classes/Provider_model.dart';
-import 'package:marketfeeed/resources/widgets/DropDownButton.dart';
+import 'package:marketfeeed/resources/provider_classes/provider_model.dart';
+import 'package:marketfeeed/resources/widgets/drop_down_button.dart';
 import 'package:marketfeeed/resources/widgets/input_text_field.dart';
-import 'package:marketfeeed/resources/widgets/reusableButton.dart';
-import 'package:marketfeeed/screeens/screenHome/Screen_Home.dart';
+import 'package:marketfeeed/resources/widgets/reusable_button.dart';
+import 'package:marketfeeed/screeens/screen_home/screen_home.dart';
 import 'package:provider/provider.dart';
 
 class LoginScreenBottonContainer extends StatelessWidget {

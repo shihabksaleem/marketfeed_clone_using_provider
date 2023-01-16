@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:marketfeeed/resources/provider%20classes/Provider_model.dart';
-import 'package:marketfeeed/resources/provider%20classes/leaderboardParovider.dart';
-import 'package:marketfeeed/screeens/login%20Screen/screen_login.dart';
-import 'package:marketfeeed/screeens/screenHome/Screen_Home.dart';
-import 'package:marketfeeed/screeens/screen%20splash/splashscreeen.dart';
+import 'package:marketfeeed/resources/provider_classes/leaderboard_parovider.dart';
+import 'package:marketfeeed/resources/provider_classes/provider_model.dart';
+import 'package:marketfeeed/screeens/login_screen/screen_login.dart';
+import 'package:marketfeeed/screeens/screen_home/screen_home.dart';
+import 'package:marketfeeed/screeens/screen_splash/splash_screeen.dart';
 import 'package:provider/provider.dart';
 
 void main(List<String> args) {

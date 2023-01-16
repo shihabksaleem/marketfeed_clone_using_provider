@@ -1,13 +1,13 @@
 // ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, file_names
 
 import 'package:flutter/material.dart';
-import 'package:marketfeeed/resources/provider%20classes/leaderboardParovider.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Market_screen/leaderborad%20tab/res/BottomSheets/LooserGainerOptionBottomSheet.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Market_screen/leaderborad%20tab/res/BottomSheets/indicesOptionBottomSheet.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Market_screen/leaderborad%20tab/res/table%20colums/ChangesColum.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Market_screen/leaderborad%20tab/res/table%20colums/LTPColum.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Market_screen/leaderborad%20tab/res/table%20colums/StocksSymbol_colum.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Market_screen/leaderborad%20tab/res/top_containers.dart';
+import 'package:marketfeeed/resources/provider_classes/leaderboard_parovider.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/market_screen/leaderborad%20tab/res/BottomSheets/LooserGainerOptionBottomSheet.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/market_screen/leaderborad%20tab/res/BottomSheets/indicesOptionBottomSheet.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/market_screen/leaderborad%20tab/res/table%20colums/ChangesColum.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/market_screen/leaderborad%20tab/res/table%20colums/LTPColum.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/market_screen/leaderborad%20tab/res/table%20colums/StocksSymbol_colum.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/market_screen/leaderborad%20tab/res/top_containers.dart';
 import 'package:provider/provider.dart';
 
 class LeaderBoardrTab extends StatelessWidget {

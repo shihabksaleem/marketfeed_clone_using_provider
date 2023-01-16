@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:marketfeeed/resources/widgets/StockDataCard.dart';
+import 'package:marketfeeed/resources/widgets/stock_data_card.dart';
 
 class BroadMarketIndicesColum extends StatelessWidget {
   @override

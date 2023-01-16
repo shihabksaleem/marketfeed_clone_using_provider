@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:marketfeeed/screeens/login%20Screen/Page%20resources/loginscreen_bottom_container.dart';
+import 'package:marketfeeed/screeens/login_screen/Page%20resources/login_screen_bottom_container.dart';
 
 class ScreenLogin extends StatelessWidget {
   static String id = 'Login_Screen';

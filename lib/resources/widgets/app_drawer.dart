@@ -1,12 +1,14 @@
 // ignore_for_file: prefer_const_constructors, must_be_immutable
 
 import 'package:flutter/material.dart';
-import 'package:marketfeeed/resources/provider%20classes/Provider_model.dart';
-import 'package:marketfeeed/screeens/login%20Screen/screen_login.dart';
+import 'package:marketfeeed/resources/provider_classes/provider_model.dart';
+import 'package:marketfeeed/screeens/login_screen/screen_login.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class SideBar extends StatelessWidget {
+  const SideBar({super.key});
+
   loadMarketfeedWebsite() async {
     print('about marketfeed');
     Uri uri = Uri.parse("https://marketfeed.com/");
@@ -156,12 +158,9 @@ class SideBar extends StatelessWidget {
               onTap: () {
                 Provider.of<ProviderModel>(context, listen: false)
                     .onOtpPressed();
-                Navigator.pushAndRemoveUntil(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => ScreenLogin(),
-                    ),
-                    (route) => false);
+
+                Navigator.pushNamedAndRemoveUntil(
+                    context, ScreenLogin.id, (route) => false);
               },
               title: 'Logout',
               color: Colors.red,

@@ -3,8 +3,8 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors
 
 import 'package:flutter/material.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Traders%20Screen/res/TradersDetailTile.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Traders%20Screen/res/TradersTopTile.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/traders_screen/res/TradersDetailTile.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/traders_screen/res/TradersTopTile.dart';
 
 class TradersBottomTab extends StatelessWidget {
   @override

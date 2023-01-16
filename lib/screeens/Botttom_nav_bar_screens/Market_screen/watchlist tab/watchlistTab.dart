@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, avoid_unnecessary_containers, use_key_in_widget_constructors
 
 import 'package:flutter/material.dart';
-import 'package:marketfeeed/resources/widgets/StockDataCard.dart';
+import 'package:marketfeeed/resources/widgets/stock_data_card.dart';
 
 class WatchlistTab extends StatelessWidget {
   @override

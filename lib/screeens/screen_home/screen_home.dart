@@ -2,12 +2,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:marketfeeed/resources/Colors/colors.dart';
-import 'package:marketfeeed/resources/provider%20classes/Provider_model.dart';
+import 'package:marketfeeed/resources/provider_classes/provider_model.dart';
 import 'package:marketfeeed/resources/widgets/app_drawer.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Market_screen/Market_screen.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Read%20Screen/Read_screen.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Signals_Screen/Signals_screens.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Traders%20Screen/Traders_screen.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/market_screen/Market_screen.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/read_screen/Read_screen.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/signals_screen/Signals_screens.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/traders_screen/Traders_screen.dart';
 import 'package:provider/provider.dart';
 
 class ScreenHome extends StatelessWidget {

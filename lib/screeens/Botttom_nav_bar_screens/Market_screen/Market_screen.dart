@@ -1,12 +1,12 @@
 // ignore_for_file: file_names, use_key_in_widget_constructors
 
 import 'package:flutter/material.dart';
-import 'package:marketfeeed/resources/custom%20indicator/custom_tab_Indicator.dart';
+import 'package:marketfeeed/resources/custom_indicator/custom_tab_Indicator.dart';
 import 'package:marketfeeed/resources/widgets/app_drawer.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Market_screen/global%20indiced%20tab/global_indices_tab.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Market_screen/indian%20indices%20tab/indian_indices_Tab.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Market_screen/leaderborad%20tab/LeaderboardTab.dart';
-import 'package:marketfeeed/screeens/Botttom_nav_bar_screens/Market_screen/watchlist%20tab/watchlistTab.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/market_screen/global%20indiced%20tab/global_indices_tab.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/market_screen/indian%20indices%20tab/indian_indices_Tab.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/market_screen/leaderborad%20tab/LeaderboardTab.dart';
+import 'package:marketfeeed/screeens/botttom_nav_bar_screens/market_screen/watchlist%20tab/watchlistTab.dart';
 
 class MarketBottomtab extends StatelessWidget {
   get kHomeScaffoldColor => null;
