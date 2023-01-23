@@ -4,6 +4,8 @@ import 'package:marketfeeed/screeens/login_screen/Page%20resources/login_screen_
 class ScreenLogin extends StatelessWidget {
   static String id = 'Login_Screen';
 
+  const ScreenLogin({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -7,6 +7,7 @@ import 'package:marketfeeed/resources/widgets/drop_down_button.dart';
 import 'package:marketfeeed/resources/widgets/input_text_field.dart';
 import 'package:marketfeeed/resources/widgets/reusable_button.dart';
 import 'package:marketfeeed/screeens/screen_home/screen_home.dart';
+import 'package:pinput/pinput.dart';
 import 'package:provider/provider.dart';
 
 class LoginScreenBottonContainer extends StatelessWidget {
@@ -56,29 +57,80 @@ class LoginScreenBottonContainer extends StatelessWidget {
                         children: [
                           const CustomDropDownButton(),
                           Expanded(
-                              child: InputTextFormFieldWidget(
-                                  Validator: (value) {
-                                    if (value == null || value.isEmpty) {
-                                      return 'Please enter mobile number';
-                                    } else if (value.length < 10) {
-                                      return 'Please enter valid mobile number';
-                                    }
-                                    return null;
-                                  },
-                                  inputkeyboardType: TextInputType.number,
-                                  hintText: 'Enter Mobile Number')),
+                            child: InputTextFormFieldWidget(
+                                Validator: (value) {
+                                  if (value == null || value.isEmpty) {
+                                    return 'Please enter mobile number';
+                                  } else if (value.length < 10) {
+                                    return 'Please enter valid mobile number';
+                                  }
+                                  return null;
+                                },
+                                inputkeyboardType: TextInputType.number,
+                                hintText: 'Enter Mobile Number'),
+                          ),
                         ],
                       ),
                       const SizedBox(height: 20),
-                      SizedBox(
-                        width: MediaQuery.of(context).size.width,
-                        child: ReusableButton(
-                          buttonText: 'Get OTP',
-                          onPressed: () {
-                            if (_formKey.currentState!.validate()) {
-                              value.onOtpPressed();
-                            }
-                          },
+                      Visibility(
+                        visible: value.otpButton,
+                        child: SizedBox(
+                          width: MediaQuery.of(context).size.width,
+                          child: ReusableButton(
+                            buttonText: 'Get OTP',
+                            onPressed: () {
+                              if (_formKey.currentState!.validate()) {
+                                value.onOtpPressed();
+                              }
+                            },
+                          ),
+                        ),
+                      ),
+                      Container(
+                        child: Visibility(
+                          visible: value.pinputVisisble,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              const SizedBox(
+                                height: 10,
+                              ),
+                              Text(
+                                'One Time Password (OTP)',
+                                style: TextStyle(
+                                    color: Colors.grey.shade600, fontSize: 11),
+                              ),
+                              const SizedBox(
+                                height: 10,
+                              ),
+                              InputTextFormFieldWidget(
+                                hintText: '6 digit OTP',
+                                Validator: (p0) {},
+                              ),
+                              const SizedBox(height: 10),
+                              Text(
+                                'Waiting for OTP (Resend in 27s)',
+                                style: TextStyle(
+                                    color: Colors.grey.shade600, fontSize: 11),
+                              ),
+                              SizedBox(height: 20),
+                              Text(
+                                'By confirming OTP, you agree to our Terms & Conditions',
+                                style: TextStyle(
+                                    color: Colors.grey.shade900, fontSize: 11),
+                              ),
+                              SizedBox(height: 10),
+                              SizedBox(
+                                width: MediaQuery.of(context).size.width,
+                                child: ReusableButton(
+                                  buttonText: 'Submit OTP',
+                                  onPressed: () {
+                                    value.onSubmitOtpPressed();
+                                  },
+                                ),
+                              )
+                            ],
+                          ),
                         ),
                       )
                     ],

@@ -4,6 +4,7 @@ import 'package:marketfeeed/resources/provider_classes/provider_model.dart';
 import 'package:marketfeeed/screeens/login_screen/screen_login.dart';
 import 'package:marketfeeed/screeens/screen_home/screen_home.dart';
 import 'package:marketfeeed/screeens/screen_splash/splash_screeen.dart';
+
 import 'package:provider/provider.dart';
 
 void main(List<String> args) {

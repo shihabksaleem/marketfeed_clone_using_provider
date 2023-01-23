@@ -8,12 +8,20 @@ import 'package:image_picker/image_picker.dart';
 
 class ProviderModel extends ChangeNotifier {
   bool button1 = true;
+  bool otpButton = true;
+  bool pinputVisisble = false;
   Image? galImage;
   File? _image;
   int selectedTabIndex = 0;
   bool appBarVisible = true;
 
   void onOtpPressed() {
+    pinputVisisble = !pinputVisisble;
+    otpButton = false;
+    notifyListeners();
+  }
+
+  void onSubmitOtpPressed() {
     button1 = !button1;
     notifyListeners();
   }
