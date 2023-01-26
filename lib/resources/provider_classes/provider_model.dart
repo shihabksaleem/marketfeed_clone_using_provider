@@ -50,4 +50,11 @@ class ProviderModel extends ChangeNotifier {
         : appBarVisible = true;
     notifyListeners();
   }
+
+  void onLogoutPressed() {
+    button1 = true;
+    pinputVisisble = false;
+    otpButton = true;
+    notifyListeners();
+  }
 }

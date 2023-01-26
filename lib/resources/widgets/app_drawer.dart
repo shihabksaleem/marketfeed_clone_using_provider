@@ -157,7 +157,7 @@ class SideBar extends StatelessWidget {
             SidebarTextTile(
               onTap: () {
                 Provider.of<ProviderModel>(context, listen: false)
-                    .onOtpPressed();
+                    .onLogoutPressed();
 
                 Navigator.pushNamedAndRemoveUntil(
                     context, ScreenLogin.id, (route) => false);

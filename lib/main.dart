@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         initialRoute: SplashScreen.id,
         routes: {
           SplashScreen.id: (context) => SplashScreen(),
-          ScreenLogin.id: (context) => ScreenLogin(),
+          ScreenLogin.id: (context) => const ScreenLogin(),
           ScreenHome.id: (context) => ScreenHome(),
         },
         debugShowCheckedModeBanner: false,
